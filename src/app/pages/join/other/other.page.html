@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>Join Search 23</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-label>
+          <h1 class="form__header">Personal Information</h1>
+        </ion-label>
+        <form>
+          <ion-input required type="text" name="pTitleField" placeholder="Title"></ion-input>
+          <ion-input required type="text" name="pNameField" placeholder="Name"></ion-input>
+          <ion-input required type="text" name="pSurnameField" placeholder="Surname"></ion-input>
+          <ion-input required type="tel" name="pCellField" placeholder="Cell"></ion-input>
+          <ion-input required type="tel" name="pTellField" placeholder="Tell"></ion-input>
+          <ion-input required type="email" name="pEmailField" placeholder="Email"></ion-input>
+          <!-- <ion-input required type="email" name="nameField" placeholder="Type email address"></ion-input>
+          <ion-input required type="tel" name="nameField" placeholder="Type phone number"></ion-input>
+          <ion-input required type="password" name="nameField" placeholder="Type password"></ion-input>
+          <ion-input required type="password" name="nameField" placeholder="Re-type password"></ion-input> -->
+                   
+          <ion-button shape="round" expand="full">Save</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

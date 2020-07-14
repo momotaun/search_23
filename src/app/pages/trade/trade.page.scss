@@ -1,0 +1,253 @@
+ion-toolbar {
+    --background: linear-gradient(#713642, #401852);
+    --color: #fff;
+    --min-height: 105px;
+    padding: 0 37px;
+}
+
+ion-button ion-icon {
+    color: #fff;
+    font-size: 30px;
+}
+
+ion-title {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+ion-menu-button {
+    --color: #ffffff;
+    font-size: 30px;
+}
+
+ion-content {                                                                                                                                                       
+    // --padding-start: 11px;
+    // --padding-end: 11px;
+    --padding-top: 35px;
+    --padding-bottom: 11px;
+}
+
+.search__bar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ion-searchbar {
+    // width: 90%;
+    float: left;
+    --background: none;
+    --border-radius: 9px;
+    --cancel-button: #fd850d;
+    --clear-button: #fd850d;
+    --icon-color: #707070;
+    --placeholder-color: #a6a0a0;
+    --placeholder-font-weight: 300;
+}
+
+// ion-icon {
+//     width: 10%;
+//     float: left;
+//     vertical-align: middle;
+//     fill: #fd850d;
+//     font-size: 26px;
+// }
+
+ion-item {
+    // border-radius: 9px;
+    // box-shadow: 3px 3px 9px 0 #ccc;
+    // margin-bottom: 20px;
+    margin-left: -20px!important;
+    overflow: hidden;
+}
+
+// ion-item img {
+//     width: 110px;
+//     height: 120px;
+//     margin-right: 18px;
+//     border-radius: 9px 0 0 9px;
+// }
+
+ion-label {
+    margin: 0;
+}
+
+ion-label h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #767577;
+}
+
+ion-label p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767577;
+}
+
+ion-label ion-grid ion-row ion-col p {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+ion-label ion-grid ion-row ion-col ion-button {
+    font-weight: 700;
+    font-size: 9px;
+    color: #ffffff;
+    --background: #fd850d;
+    --background-activated: #fd850d;
+    --background-activated-opacity: 0.9;
+    --background-hover-opacity: 0.9;
+    --padding-start: 8px;
+    --padding-end: 8px;
+    --padding-bottom: 3px;
+    --padding-top: 3px;
+}
+
+.contact__email {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+ion-item ion-button {
+    
+    font-weight: 700;
+    font-size: 11px;
+    color: #ffffff;
+    --background: #fd850d;
+    --background-activated: #fd850d;
+    --background-activated-opacity: 0.9;
+    --background-hover-opacity: 0.9;
+    --padding-start: 8px;
+    --padding-end: 8px;
+    --padding-bottom: 3px;
+    --padding-top: 3px
+}
+
+.trade-form-wrapper {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    background: #fff;
+    height: 45px;
+    width: 206.4px;
+    border: none;
+    border-radius: 0 23px 23px 0;
+    margin: 0;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(253, 133, 13, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(253, 133, 13, 1);
+}
+
+.search-btn {
+    color: #707070;
+    background: #fff;
+    height: 45px;
+    width: 59.6px;
+    border: none;
+    border-radius: 23px 0 0 23px;
+    margin: 0;
+    font-size: 22.6px;
+}
+
+.search-btn:focus {
+    outline: none;
+}
+
+.search-close {
+    background-color: #fd9731;
+    color: #fff;
+    padding: 4px;
+    border-radius: 100%;
+    text-align: right;
+    display: inline-block;
+}
+
+.search-close i {
+    color: #fff;
+    margin: 5px;
+}
+
+.comapny-card {
+    display: grid;
+    grid-template-columns: 110px auto;
+    grid-template-rows: 120px;
+    column-gap: 18px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 9px 0 #ccc;
+}
+
+.company-info {
+    margin-top: 12px;
+}
+
+.company-image {
+    width: 100%;
+    height: 100%;
+    background: #b5b0b0;
+    color: #fff;
+    border-radius: 9px 0 0 9px;
+}
+
+.company-name h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #767577;
+}
+
+.company-contact h4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767577;
+}
+
+.company-address h4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767577;
+}
+
+.company-phone h4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767577;
+}
+
+.other-contacts h6 {
+    display: inline;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 19px;
+    color: #767577;
+    margin-right: 20px;
+}
+
+.call-btn {
+    background: #fd850d;
+    width: 55px;
+    height: 17px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    border: none;
+    border-radius: 9px;
+}

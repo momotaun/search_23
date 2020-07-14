@@ -1,0 +1,57 @@
+ion-header {
+    --background: none;
+}
+
+ion-toolbar {
+    --min-height: 105px;
+    --background: none;
+    --color: #fff;
+    padding: 0 25px;
+}
+
+ion-button ion-icon {
+    color: #fff;
+    font-size: 30px;
+}
+
+ion-title {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+ion-menu-button {
+    --color: #ffffff;
+}
+
+ion-content {
+    position: absolute;
+    --background: url("../../../assets/images/i_stock_1086131330.png") top right/contain no-repeat border-box;
+    color: #767577;
+}
+
+.wrapper {
+    background: #fff;
+    width: 100%;
+    color: #767577;
+    border-radius: 22px 22px 0 0;
+    padding-top: 40px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-top: 243px;
+}
+
+ion-label {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.14px;
+    --color: #767577;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+ion-label strong {
+    font-weight: 700;
+}

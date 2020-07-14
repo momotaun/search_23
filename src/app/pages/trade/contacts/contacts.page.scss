@@ -1,0 +1,51 @@
+ion-content {
+    --background: #edf2f9;
+    --padding-top: 35px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+}
+
+ion-card {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ion-icon {
+    font-size: 16px;
+    color: #fd850d;
+    margin-bottom: 20px;
+}
+
+ion-label {
+    font-weight: 300;
+    color: #767577;
+}
+
+ion-label h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+ion-label h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+ion-label p {
+    font-size: 15px;
+}
+
+ion-label p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fd850d;
+    margin-bottom: 30px;
+}
+
+ion-button {
+    --background: none;
+    color: #767577;
+    font-weight: 700;
+    font-size: 15px;
+}

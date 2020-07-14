@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-button [routerLink]="['/welcome']" routerDirection="back">
+            <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <div class="description__alert">
+                    <ion-label>
+                        <h3 class="alert__header">COVID-19 Alert</h3>
+                        <h4 class="alert__info">
+                            Dear user, we understand that due the COVID-19 pandemic a lot of services have been suspended. 
+                            This version of Search 23 aims to Provide help or essential services.
+                        </h4>
+                    </ion-label>
+                </div>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col class="no-padding">
+                <div class="about__content">
+                    <ion-label>
+                        <h1 class="main__header">About</h1>
+                        <p class="about__info">
+                            Business owners and professional service providers join the App with a monthly fee. 
+                            Their businesses will be available for App users to browse through to find a service they are looking for.
+                            Search 23 does not own any of the listed businesses, 
+                            we are only a platform to reduce time you’d normally spend looking for a service provider.
+                        </p>
+                    </ion-label>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    
+</ion-content>

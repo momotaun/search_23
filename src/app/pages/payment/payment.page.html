@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>Payments</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="wrapper">
+          <ion-label>
+            <h4 class="description">
+              Please make a direct deposit or EFT to the following
+              banking details with your Business name as reference:
+            </h4>
+            <h4 class="bank__details">
+              Bank: <strong>TymBank</strong><br>
+              Account Holder: <strong>Basic Code</strong><br>
+              Account Number: <strong>53000084255</strong><br>
+              Branch Code: <strong>678910</strong>
+            </h4>
+          </ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

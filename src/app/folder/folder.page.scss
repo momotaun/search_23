@@ -1,0 +1,77 @@
+// ion-menu-button {
+//   color: var(--ion-color-primary);
+// }
+
+// #container {
+//   text-align: center;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+//   color: #8c8c8c;
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
+ion-content {
+  --padding-start: 37px;
+  --padding-end: 37px;
+  --padding-top: 37px;
+  --color: #fff;
+  --background: linear-gradient(#f18931, #290a59);
+}
+
+.welcome-text{
+  margin-bottom: 54.00px;
+}
+
+.welcome-text h1 {
+  font-weight: 300;
+  font-size: 35.00;
+}
+
+.intro-text{
+  margin-bottom: 46.00px;
+}
+
+.intro-text h4 {
+  font-weight: 300;
+  font-size: 19.00px;
+  line-height: 25.00px;
+}
+
+.action-buttons {
+  text-align: center;
+}
+
+.action-buttons div button {
+  width: 266px;
+  height: 45px;
+  background: #fff;
+  color: #767577;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 23px;
+}
+
+.action-buttons div {
+  margin-bottom: 20px;
+}
+
+.action-buttons div:last-child {
+  margin-bottom: 0;
+}

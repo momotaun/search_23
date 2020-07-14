@@ -1,0 +1,40 @@
+ion-content {
+    --background: linear-gradient(#f18931, #290a59);
+    --color: #ffffff;
+    --padding-start: 37px;
+    --padding-end: 37px;
+    --padding-top: 37px;    
+}
+
+.welcome__text h1 {
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 54px;
+}
+
+.intro__text h4 {
+    margin-bottom: 46px;
+    font-weight: 300;
+    font-size: 19.00px;
+    line-height: 25.00px;
+}
+
+.action__butns {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ion-button {
+    --background: #ffffff;
+    --background-activated: #fd850d;
+    --background-hover: #fd850d;
+    --color: #767577;
+    --color-activated: #ffffff;
+    --color-hover: #ffffff;
+
+    height: 45px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+

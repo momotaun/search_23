@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>Join Search 23</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-label>
+          <h1 class="form__header">Business Information</h1>
+        </ion-label>
+        <form>
+          <ion-input required type="text" name="bNameField" placeholder="Business name"></ion-input>
+          <ion-input required type="text" name="bAddressField" placeholder="Business address"></ion-input>
+          <!-- <ion-input required type="email" name="nameField" placeholder="Type email address"></ion-input>
+          <ion-input required type="tel" name="nameField" placeholder="Type phone number"></ion-input>
+          <ion-input required type="password" name="nameField" placeholder="Type password"></ion-input>
+          <ion-input required type="password" name="nameField" placeholder="Re-type password"></ion-input> -->
+          <div class="checks">
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <ion-label>
+                    <h2 class="provider__heading">Service provided</h2>
+                  </ion-label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-checkbox name="builderCheckbox"></ion-checkbox>
+                  <ion-label>Builder</ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-checkbox name="builderCheckbox"></ion-checkbox>
+                  <ion-label>Builder</ion-label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-checkbox name="foodCheckbox"></ion-checkbox>
+                  <ion-label>Food</ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-checkbox name="foodCheckbox"></ion-checkbox>
+                  <ion-label>Food</ion-label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-checkbox name="electricianCheckbox"></ion-checkbox>
+                  <ion-label>Electrician</ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-checkbox name="electricianCheckbox"></ion-checkbox>
+                  <ion-label>Electrician</ion-label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-checkbox name="mechanicCheckbox"></ion-checkbox>
+                  <ion-label>Car Mechanic</ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-checkbox name="mechanicCheckbox"></ion-checkbox>
+                  <ion-label>Car Mechanic</ion-label>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-checkbox name="plumbingCheckbox"></ion-checkbox>
+                  <ion-label>Plumbing</ion-label>
+                </ion-col>
+                <ion-col>
+                  <ion-checkbox name="plumbingCheckbox"></ion-checkbox>
+                  <ion-label>Plumbing</ion-label>
+                </ion-col>
+              </ion-row>
+            </ion-grid> 
+          </div>                 
+          
+          <ion-textarea placeholder="Describe your business"></ion-textarea>
+          <a href="#" class="logo__upload">Upload your logo</a>
+          <ion-item lines="none">
+            <ion-checkbox slot="start" name="acceptCheckbox"></ion-checkbox>
+            <ion-label>I accept <a href="#">terms and conditions</a></ion-label>
+          </ion-item>          
+          <ion-button shape="round" expand="full">Register</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>One Time Cone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-label>
+          <h1 class="form__header">Enter the <strong>One Time Code</strong> that was sent to your email address.</h1>
+        </ion-label>
+        <form class="otp__form">
+          <ion-input required type="email" name="pEmailField" placeholder="E-mail address"></ion-input>
+                   
+          <ion-button shape="round" expand="full">Submit</ion-button>
+          <ion-button shape="round" expand="full">Re-send OTC</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

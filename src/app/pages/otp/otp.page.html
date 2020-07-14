@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>Confirmation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-label>
+          <h1 class="form__header">Enter your e-mail address and we'll send you a <strong>One Time Code</strong> to reset your password.</h1>
+        </ion-label>
+        <form class="otp__form">
+          <ion-input required type="email" name="pEmailField" placeholder="E-mail address"></ion-input>
+                   
+          <ion-button shape="round" expand="full">Submit</ion-button>
+        </form>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          <h4 class="query__header">Didn't receive any meassage?</h4>
+          <h4 class="query__links"><a href=#>Resend Code</a></h4>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

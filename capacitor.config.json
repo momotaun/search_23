@@ -1,0 +1,13 @@
+{
+  "appId": "search23.basiccode.co.za",
+  "appName": "search23",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

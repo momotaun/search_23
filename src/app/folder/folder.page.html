@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="welcome-screen">
+  <ion-label>
+    <h1>{{ title }}</h1>
+  </ion-label>
+
+  <ion-label>
+    <h4>{{ subtitle }}</h4>
+  </ion-label>
+    
+  <ion-button shape="round" expand="full">About</ion-button>
+  <ion-button shape="round" expand="full">Quick Search</ion-button>
+  <ion-button shape="round" expand="full">Join Search 23</ion-button>
+</ion-content>

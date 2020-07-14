@@ -1,0 +1,78 @@
+ion-header {
+    --background: none;
+    border: none;
+}
+
+ion-toolbar {
+    --min-height: 105px;
+    --background: none;
+    color: #fff;
+    padding: 40px 25px;
+}
+
+ion-content {
+    position: absolute;
+    --background: url("../../../assets/images/i_stock_1185838701.jpg") top right/contain no-repeat border-box;
+    --padding-top: 94px;
+}
+
+ion-button ion-icon {
+    font-weight: 300;
+    font-size: 29.2px;
+    color: #fff;
+}
+
+.description__alert {
+    background: rgba(252, 132, 12, 0.9);
+    color: #fff;
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-bottom: 24px;
+    padding-top: 13px;
+    padding-left: 26.6px;
+    padding-right: 26.6px;
+    padding-bottom: 13px;
+    border-radius: 9px;
+}
+
+.alert__header {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+
+.alert__info {
+    color: #edf2f9;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.about__content {
+    background: #fff;
+    width: 100%;
+    color: #767577;
+    border-radius: 22px 22px 0 0;
+    padding-top: 23px;
+    padding-left: 37px;
+    padding-right: 53px;
+    padding-bottom: 47px;
+}
+
+.main__header {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.about__info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}

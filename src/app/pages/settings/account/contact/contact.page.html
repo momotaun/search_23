@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/welcome']" routerDirection="back">
+        <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+  <ion-title>Contact Info</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-item lines="none">
+          <ion-label>
+            <h4>Edit Contact Information</h4>
+            <p>You can edit your info as you wish below</p>
+          </ion-label>
+        </ion-item>
+        <form>
+          <ion-label>
+            Physical Address
+          </ion-label>
+          <ion-input></ion-input>
+          <ion-input></ion-input>
+          <ion-label>
+            Contact numbers
+          </ion-label>
+          <ion-input></ion-input>
+          <div class="btn">
+            <ion-button shape="round" expand="full">Save</ion-button>
+          </div>
+        </form>        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
